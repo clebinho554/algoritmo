@@ -1,0 +1,28 @@
+Algoritmo  "reajuste de salário"
+
+Var
+salario, reajuste, novo:real
+
+
+
+Inicio
+
+escreva("Digite o salário atual do funcionário: ")
+
+leia(salario)
+
+escreva("Qual é o valor do reajuste em porcentagem: ")
+
+leia(reajuste)
+
+
+novo <- salario + (salario * (20/100))
+
+
+
+escreval("O valor do salário com reajuste é ", novo)
+
+
+
+
+fimalgoritmo
