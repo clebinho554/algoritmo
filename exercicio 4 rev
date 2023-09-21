@@ -1,0 +1,39 @@
+Algoritmo "semnome"
+
+
+
+Var
+
+nascimento: inteiro
+
+idade:inteiro
+
+
+
+Inicio
+
+
+
+escreval("Escreva sua data de nascimento")
+
+leia(nascimento)
+
+
+
+idade <- 2023 - nascimento
+
+escreva("A idade dele será aproximadamente", idade, ".")
+
+
+
+se idade>= 16 entao
+
+escreval( " Ele é apto para ser eleitor. ")
+
+senao
+
+escreval(" Ele é inapto a ser eleitor. ")
+
+ fimse
+
+Fimalgoritmo
