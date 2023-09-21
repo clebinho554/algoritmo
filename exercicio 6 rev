@@ -1,0 +1,25 @@
+Algoritmo "semnome"
+
+Var
+salariobrutom: inteiro
+salarioliquidom:real
+sexo:caractere
+
+salarioliquidof:real
+masculino:caractere
+feminino:caractere
+Inicio
+
+escreval("Escreva seu salário bruto")
+leia(salariobrutom)
+Escreval("Qual é seu sexo")
+leia(sexo)
+salarioliquidom <- salariobrutom*0.95
+
+salarioliquidof <- salariobrutom*0.97
+se sexo = "masculino"  entao
+escreva("O salário liquido será de ", salarioliquidom)
+senao
+escreva("O salário liquido será de ", salarioliquidof)
+fimse
+Fimalgoritmo
