@@ -1,0 +1,43 @@
+Algoritmo "semnome"
+
+
+
+Var
+
+
+
+valor1, valor2, valor3, valor4 : inteiro
+
+ media :real
+
+
+
+Inicio
+
+escreval("Escreva o valor 1")
+
+leia(valor1)
+
+escreval("Escreva o valor 2")
+
+leia(valor2)
+
+escreval("Escrevs o valor 3")
+
+leia(valor3)
+
+escreval("Escreva o valor 4")
+
+leia(valor4)
+
+
+
+media <-(( valor1 +  valor2 + valor3 + valor4) /4)
+
+
+
+
+
+escreva("A média aritmética da soma dos numeros digitados será", media)
+
+Fimalgoritmo
