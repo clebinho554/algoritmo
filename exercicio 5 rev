@@ -1,0 +1,31 @@
+Algoritmo "semnome"
+
+
+
+Var
+
+salariobruto: inteiro
+
+salarioliquido:real
+
+
+
+Inicio
+
+
+
+escreval("Escreva seu salário bruto")
+
+leia(salariobruto)
+
+
+
+salarioliquido <- salariobruto*0.92
+
+escreva("O salário liquido será de ", salarioliquido)
+
+
+
+
+
+Fimalgoritmo
