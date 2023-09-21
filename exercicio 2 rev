@@ -1,0 +1,31 @@
+Algoritmo "semnome"
+
+
+
+Var
+
+
+
+valor1, valor2, valor3 : inteiro
+
+ media :real
+
+
+
+Inicio
+
+escreval("Essa será a nota do aluno nesse bimestre")
+
+valor1 <- 8
+
+valor2 <- 6
+
+valor3 <- 2
+
+
+
+media <- ((valor1 + valor2 +valor3) /3)
+
+escreva(media)
+
+Fimalgoritmo
