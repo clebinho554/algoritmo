@@ -1,0 +1,32 @@
+algoritmo  "Condições múltiplas"
+
+
+var
+
+idade: inteiro
+habilitacao: caractere
+inicio
+escreval("Qual é a sua idade?")
+leia(idade)
+
+
+se idade >= 18 entao
+
+escreval("Você tem habilitação?")
+leia(habilitacao)
+
+se habilitacao = "sim" entao
+
+escreva("Você está apto a dirigir")
+
+senao
+
+escreva("Você está inapto a dirigir")
+
+fimse
+
+senao
+escreva("Você não possui idade para dirigir")
+fimse
+
+fimalgoritmo
