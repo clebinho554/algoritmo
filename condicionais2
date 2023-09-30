@@ -1,0 +1,30 @@
+algoritmo  "Condições múltiplas"
+
+
+var
+
+n1: inteiro
+inicio
+escreval("Digite um número inteiro")
+leia(n1)
+
+
+se n1 > 0  entao
+
+escreval("Positivo")
+
+
+senao
+se n1 < 0 entao
+escreva("Negativo")
+
+senao
+
+escreva("Nulo")
+
+fimse
+
+
+fimse
+
+fimalgoritmo
